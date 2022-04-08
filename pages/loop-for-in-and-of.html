@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loop for and in</title>
+</head>
+<body>
+    
+
+
+    <script>
+        const array1= ["hans", " karen", " isa"];
+        const array2= ["cami", " sofia", array1, " pedro" ];
+
+        // with this loop we can enter the indexes of each element, we can even enter the elements with this loop by doing the folowing 
+        // document.write(array1[array]);
+
+        for(array in array1){
+            document.write( "<b>"+ array + "</b>" + "<br>");
+        }
+
+        document.write("<br>");
+
+        practice:
+        for(array in array2){
+            if(Array.isArray(array2[array])===true){
+
+                for(array of array1){
+                    document.write( array + "<br>");
+                }
+                break practice;
+            }else{
+                document.write(array2[array] + "<br>");
+            }
+
+        }
+
+        document.write("<br>");
+
+        for(array of array1){
+            document.write(array + "<br>")
+        }
+
+        
+    </script>
+</body>
+</html>
