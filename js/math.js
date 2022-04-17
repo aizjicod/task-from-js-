@@ -13,6 +13,13 @@ let resultado;
 
 //properties
 
-
+// resultado=Math.PI;
+// resultado=Math.SQRT1_2;
+// resultado=Math.SQRT2;
+// resultado=Math.E;
+// resultado=Math.LN2;
+// resultado=Math.LN10;
+// resultado=Math.LOG10E;
+// resultado=Math.LOG2E;
 
 document.write(resultado)
