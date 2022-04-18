@@ -40,12 +40,14 @@ const cantidadDeClases = (alumn)=>{
         }
     }
     return document.write(`el alumno ${alumn}, asiste ${count} clases: 
-    <b style='color:green; font-size:1.2em'> ${clases.join("__")} <b>`);
+    <b style='color:green; font-size:1.2em'> ${clases.join("__")} </b> <br> <br>`);
 }
 
 showInformation("matematica");
 showInformation("lengua");
 showInformation("ingles");
-showInformation("quima");
 
 cantidadDeClases("sofia");
+
+showInformation("quimica");
+
