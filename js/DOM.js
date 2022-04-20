@@ -12,7 +12,7 @@
 // document.write(elementClass + "<br>");
 
 // //with this selector is almost the same as getElementsByTagName since it agroup all the selected elements with the same class or id
-// let elementsclass= document.querySelector(".first__paras");
+// let elementsclass= document.querySelectorAll(".first__paras");
 // document.write(elementsClass[1] + "<br>");
 
 

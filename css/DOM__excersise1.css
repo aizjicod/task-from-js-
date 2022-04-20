@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:#121212;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+   
+}
+
+.form{
+    order:3;
+    flex-basis:10000px;
+}
+.flex-item{
+    border: 2px solid #555555;
+    margin:20px;
+    padding:10px;
+    background:#fff;
+
+    flex-grow:1;
+    max-width:340px;
+}
+.flex-item:hover{
+   
+}
+
+.flex-item b:last-child{
+    color:darkgreen;
+}
+
+img{
+    width: 300px;
+}
